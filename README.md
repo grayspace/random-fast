@@ -1,30 +1,71 @@
-# RandomFast app design
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+# RandomFast ⚡
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/grayspace1s-projects/v0-random-fast-app-design)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/sd5ayDOfAt2)
+AI-generated fasting tracker build with Vercel's V0 tool. Allows users to create and track intermittent fasting with a randomly selected duration.
 
-## Overview
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+## About This Project
 
-## Deployment
+This is an experiment with AI-assisted coding, fast prototyping, and best practices for integrating AI into the software development process. It provides examples of modular UI components, PWA support, and rapid iteration using Next.js and TypeScript.
 
-Your project is live at:
 
-**[https://vercel.com/grayspace1s-projects/v0-random-fast-app-design](https://vercel.com/grayspace1s-projects/v0-random-fast-app-design)**
+## Features
 
-## Build your app
+- **AI Coding Experiments** – Example workflows and utilities for AI-assisted development
+- **Reusable UI Components** – Custom React components for rapid prototyping
+- **PWA Support** – Installable, offline-capable web app
+- **Theming & Settings** – Theme provider, dialogs, and user preferences
+- **Fast Prototyping Utilities** – Tools for quick iteration and testing
+- **Responsive Design** – Works seamlessly on all devices
 
-Continue building your app on:
 
-**[https://v0.dev/chat/projects/sd5ayDOfAt2](https://v0.dev/chat/projects/sd5ayDOfAt2)**
+## Tech Stack
 
-## How It Works
+- **Next.js** (App Router) with TypeScript
+- **pnpm** for package management
+- **PostCSS** for modern CSS workflows
+- **Custom UI components** (no Tailwind)
+- **React Context** for state management
+- Local storage for data persistence
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+
+## Quick Start
+
+```bash
+git clone https://github.com/grayspace/random-fast.git
+cd random-fast
+pnpm install
+pnpm dev
+```
+
+Open [http://localhost:3000](http://localhost:3000)
+
+
+## Project Structure
+
+```
+app/         # Next.js app directory (routing, layout, PWA)
+components/  # Custom React UI components
+lib/         # State management, preferences, utilities
+public/      # Static assets and icons
+styles/      # Global CSS
+```
+
+
+## Contributing
+
+Contributions and suggestions are welcome! Great for learning modern web development, AI-driven workflows, and rapid prototyping.
+
+- Open issues for bugs or features
+- Submit PRs for improvements
+- Add documentation or new experiments
+
+
+## License
+
+MIT License – feel free to use this as a reference for your own AI experiments.
+
+
+---
+
+**RandomFast** – An experiment in AI-assisted development. 🤖✨
