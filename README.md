@@ -3,6 +3,8 @@
 
 AI-generated fasting tracker build with Vercel's V0 tool. Allows users to create and track intermittent fasting with a randomly selected duration.
 
+**🌐 Live App:** [randomfast.vercel.app](https://randomfast.vercel.app)  
+**🤖 Built with:** [Vercel V0](https://v0.dev)
 
 ## About This Project
 
